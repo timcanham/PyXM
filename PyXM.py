@@ -1,12 +1,12 @@
-import Tkinter
+ Tkinter
 
-try:
+  :
     import serial
-except:
-    print "Serial Library not available"
+      :
+         "Serial Library not available"
 
-import time
-import threading
+       time
+       threading
 
 xm_cmd_header = "\x5A\xA5"
 xm_cmd_footer = "\xED\xED" 
